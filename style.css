@@ -778,4 +778,21 @@ footer {
   .features {
     padding-top: 60px;
   }
+  .brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.brand-text strong {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.brand-text small {
+  font-size: 9px;
+  color: #4d91ff;
+  font-weight: 700;
+  letter-spacing: .6px;
+}
   }
